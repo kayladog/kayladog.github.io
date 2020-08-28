@@ -17,25 +17,12 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
   </head>
   <body>
-    <header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
-      <a class="navbar-brand" href="#">
-        <img src="img/logo.png" alt="Kayla Dog">
-      </a>
-      <div class="navbar-nav-scroll">
-        <ul class="navbar-nav bd-navbar-nav flex-row">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="base.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Archive</a>
-          </li>     
-        </ul>
-      </div>
-    </header>
-
+    <header id="insert_header"></header>
+    <script>
+      $(function(){
+        $('#insert_header').load('reuse_header.html');
+      });
+    </script>
     <div class="jumbotron"></div>
 
     <!-- Optional JavaScript -->
