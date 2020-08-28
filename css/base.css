@@ -1,0 +1,13 @@
+body	{
+  background-color:#FFE4B5;
+}
+
+.navbar {
+  margin-bottom: 0;
+  background-color: #2d2d30;
+  border: 0;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  opacity: 0.9;
+}
